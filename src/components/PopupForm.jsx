@@ -1,5 +1,4 @@
 import { useContext } from 'react';
-import { cut } from '../assets'
 import Context from '../utils/CreatContext';
 import '../styles/popupform.css'
 
@@ -18,8 +17,7 @@ export default function PopupForm() {
             <p className='desktop-only'>Sub-Section Details</p>
             <p className='mobile-only'>Create new assessment</p>
           </div>
-          <div className="closeicon-wraper flex-center onClick={() => ClosePopupForm()}">
-            {/* <img src={cut} className='icon-30'   /> */}
+          <div className="closeicon-wraper flex-center" onClick={() => ClosePopupForm()}>
             <svg className='cuticon' width="30" alt='close' height="30" viewBox="0 0 30 30" >
               <path d={cuticon_path}></path>
             </svg>

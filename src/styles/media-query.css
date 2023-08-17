@@ -171,12 +171,12 @@
   .assesment-grid {
     gap: 15px;
     grid-template-columns: none;
+    overflow: visible;
   }
   .add {
     width: max-content;
     padding: 20px 30px;
     justify-content: center;
-    overflow: inherit;
   }
   .instruction {
     width: 285px;

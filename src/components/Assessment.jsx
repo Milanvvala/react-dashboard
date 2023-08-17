@@ -5,7 +5,6 @@ import '../styles/assessment.css'
 export default function Assessment() {
   return (
     <>
-      {/* <div>Assessment</div> */}
       <div className='assessment'>
 
 
@@ -49,8 +48,6 @@ export default function Assessment() {
               Share
             </button>
             <div className='profiles'>
-              {/* <p className='attendees'>LP</p> */}
-              {/* <p className='attendees'>LP</p> */}
               <p className='attendees'>LP</p>
             </div>
             <p className='assessments-num'>+234</p>
